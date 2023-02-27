@@ -42,4 +42,15 @@ FB3.place(x=250,y=200)
 B3 = ttk.Button(FB3,text='แบดมินตัน',command=Button3)
 B3.pack(ipadx=10,ipady=10,expand=YES)
 
+##################
+
+def Button4():
+    text = 'ปิงปอง'
+    messagebox.showinfo('ท่านชอบเล่นกีฬา',text)
+    
+FB4 = Frame(GUI)
+FB3.place(x=250,y=240)
+B4 = ttk.Button(FB4,text='ปิงปอง',command=Button4)
+B4.pack(ipadx=10,ipady=10,expand=YES)
+
 GUI.mainloop()
